@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: David Miller
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: david@ironsummitmedia.com
+description: "The official blog of David Miller, creator of Start Bootstrap and managing partner of Iron Summit Media Strategies"
 baseurl: "/davidtmiller-website"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
+url: "http://davidtmiller.github.io/davidtmiller-website/"
+twitter_username: davidmillerskt
 github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+facebook_username:  dmironsummit
 
 # Build settings
 markdown: kramdown
