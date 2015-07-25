@@ -3,7 +3,7 @@ title: David Miller
 header-img: img/home-bg.jpg
 email: hello@davidmiller.io
 description: "The official blog of David Miller, creator of Start Bootstrap and managing partner of Iron Summit Media Strategies"
-baseurl: "/"
+baseurl: ""
 url: "http://davidmiller.io/"
 twitter_username: davidmillerskt
 github_username:  davidtmiller
