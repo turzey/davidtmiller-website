@@ -11,11 +11,9 @@ header-img: "img/post-bg-01.jpg"
 
 	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-		<p>This is a test post, so please ignore it. If you like the theme of this blog that I built, it is actually an open source theme available at my website, <a href="http://startbootstrap.com">Start Bootstrap!</a> You can download it there for free, and use it for any purpose, even commercially!</p>
+		<p>Collapsing navigation bars are very popular these days, and there are loads of plugins and code snippets out there to help you achieve the effect. What makes this method unique is that is uses the built-in Bootstrap affix plugin to create the animated collapse-on-scroll effect rather than using additional third party plugins.</p>
 
-		<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-		<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+		<p>By using this method, you wont have to import any extra JavaScript libraries or any other additional resources other than your <pre>bootstrap.js</pre> file and jQuery.</p>
 
 	</div>
 
