@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "This is just a test post"
-subtitle:   "Please ignore it..."
-date:       2015-05-13 03:12:00
+title:      "Creating a Collapse-On-Scroll Bootstrap Navbar"
+subtitle:   "Using the Built In Bootstrap Affix Plugin"
+date:       2016-01-20 13:00:00
 author:     "David Miller"
 header-img: "img/post-bg-01.jpg"
 ---
@@ -23,7 +23,7 @@ header-img: "img/post-bg-01.jpg"
 
 		<p data-height="540" data-theme-id="0" data-slug-hash="yepJoX" data-default-tab="html" data-user="davidtmiller" class='codepen'>See the Pen <a href='http://codepen.io/davidtmiller/pen/yepJoX/'>Easy Bootstrap Collapsing Animated Navigation on Scroll</a> by David Miller (<a href='http://codepen.io/davidtmiller'>@davidtmiller</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 		<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-		
+
 	</div>
 
 	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
