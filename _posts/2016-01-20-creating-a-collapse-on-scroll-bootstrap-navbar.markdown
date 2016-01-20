@@ -13,7 +13,7 @@ header-img: "img/post-bg-01.jpg"
 
 		<p>Collapsing navigation bars are a very popular design choice, and can add a nice dynamic touch to many types of websites. There are loads of plugins and code snippets out there to help you achieve the effect, but what makes this method unique is that it uses built-in Bootstrap components to create the animated collapse-on-scroll effect rather than using additional third party plugins. This means you wont have to import any extra JavaScript libraries into your project or add any other additional resources other than your core Bootstrap files and jQuery.</p>
 
-		<p>In this short, beginner level tutorial, we won't be using anything more than the default Bootstrap navbar, a bit of jQuery to activate the affix plugin, and a little bit of custom CSS. If you're a more advanced designer, feel free to use your CSS pre-processor of choice, but for the purposes of this guide I wanted to keep things as simple as possible!</p>
+		<p>In this short, beginner level code review, we won't be using anything more than the default Bootstrap navbar, a bit of jQuery to activate the Bootstrap Affix plugin, and a little bit of custom CSS. For the more advanced designers out there, feel free to use your CSS pre-processor of choice or any other tools, but for the purposes of this guide I wanted to keep things as simple as possible!</p>
 
 		<p>That being said, here is the collapse-on-scroll Bootstrap navbar that we will be exploring in this post:</p>
 
