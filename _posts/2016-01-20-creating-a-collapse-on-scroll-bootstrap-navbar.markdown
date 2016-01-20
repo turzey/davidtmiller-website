@@ -15,6 +15,10 @@ header-img: "img/post-bg-01.jpg"
 
 		<p>By using this method, you wont have to import any extra JavaScript libraries or any other additional resources other than your <code>bootstrap.js</code> file and jQuery.</p>
 
+		<p>NOTE: THIS IS A BEGINNERS TUTORIAL, TALK ABOUT THE FACT THAT ITS FOR BEGINNERS AT SOME POINT.</p>
+
+		<p>That being said, here is the end result we're going to get at:</p>
+
 	</div>
 
 	<div class="col-lg-12">
