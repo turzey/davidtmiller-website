@@ -13,7 +13,7 @@ header-img: "img/post-bg-01.jpg"
 
 		<p>Collapsing navigation bars are very popular these days, and there are loads of plugins and code snippets out there to help you achieve the effect. What makes this method unique is that is uses the built-in Bootstrap affix plugin to create the animated collapse-on-scroll effect rather than using additional third party plugins.</p>
 
-		<p>By using this method, you wont have to import any extra JavaScript libraries or any other additional resources other than your <pre>bootstrap.js</pre> file and jQuery.</p>
+		<p>By using this method, you wont have to import any extra JavaScript libraries or any other additional resources other than your <code>bootstrap.js</code> file and jQuery.</p>
 
 	</div>
 
