@@ -7,7 +7,6 @@ baseurl: ""
 url: "http://davidmiller.io/"
 twitter_username: davidmillerskt
 github_username:  davidtmiller
-facebook_username:  dmironsummit
 
 # Build settings
 markdown: kramdown
