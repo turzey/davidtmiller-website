@@ -41,4 +41,10 @@ header-img: "img/post-bg-01.jpg"
 
 	</div>
 
+	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+		<p>The first addition you'll see is that we're adding a new ID to the <code>nav</code> element. The new ID is added so we can target the navbar when we add the jQuery to activate the affix plugin. Other than the addition of a new ID, make sure you're using the <code>navbar-fixed-top</code> class when building your navbar so the positioning will be correct. The real magic happens with the CSS and JavaScript.</p>
+
+	</div>
+
 </div>
