@@ -79,6 +79,12 @@ header-img: "img/post-bg-01.jpg"
 
 		<p>Notice that we're putting all of the custom styles for the navbar in a media query. The purpose of this is to keep the mobile functionality of the default Bootstrap navbar unaffected. We only want the navbar to collapse when scrolling down when the menu items are not collapsed, or in other words, when the screen width exceeds 768px. On mobile devices, the collapsing navbar is not necessary.</p>
 
+		<h2 class="section-heading">Suggested Customization Options</h2>
+
+		<p>With this navbar setup you can add more custom styles apart from the padding being reduced when the user scrolls down on the page. You can customize the font color, background color of the navbar, the transparency of the navbar, or even the font size when the user scrolls down. To see an example of this same technique in use with some more custom styles added, check out the <a href="http://startbootstrap.com/template-overviews/creative/">Creative theme on Start Bootstrap</a>.</p>
+
+		<p>Thanks for checking out this short code review, and good luck!</p>
+
 	</div>
 
 </div>
