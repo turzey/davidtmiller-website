@@ -53,7 +53,7 @@ header-img: "img/post-bg-01.jpg"
 
 	<div class="col-lg-12">
 
-		<p data-height="540" data-theme-id="0" data-slug-hash="yepJoX" data-default-tab="js" data-user="davidtmiller" class='codepen'>See the Pen <a href='http://codepen.io/davidtmiller/pen/yepJoX/'>Easy Bootstrap Collapsing Animated Navigation on Scroll</a> by David Miller (<a href='http://codepen.io/davidtmiller'>@davidtmiller</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+		<p data-height="200" data-theme-id="0" data-slug-hash="yepJoX" data-default-tab="js" data-user="davidtmiller" class='codepen'>See the Pen <a href='http://codepen.io/davidtmiller/pen/yepJoX/'>Easy Bootstrap Collapsing Animated Navigation on Scroll</a> by David Miller (<a href='http://codepen.io/davidtmiller'>@davidtmiller</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 		<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 	</div>
