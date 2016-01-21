@@ -60,7 +60,11 @@ header-img: "img/post-bg-01.jpg"
 
 	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-		<p>The jQuery snippet in the CodePen above targets the new ID we gave to the navbar, and it tells Bootstrap to add the affix classes and change between the two classes when the page passes 100px in scrolling.</p>
+		<p>The jQuery snippet in the CodePen above targets the new ID we gave to the navbar, and it tells Bootstrap to add the affix classes and change between the two classes when the page passes 100px down from the top of the page.</p>
+
+		<h2 class="section-heading">Custom CSS Styles</h2>
+
+		<p>Finally, the custom CSS styles bring the whole concept together. We're adding a few rules to the navbar itself, in this case the <code>.navbar-default</code> class, and we're adding a rule to the <code>.affix</code> class. You'll see a CSS transition and some vertical padding added to the <code>.navbar-default</code>, and you'll see the vertical padding being reduced to 0 in the <code>.affix</code> class.</p>
 
 	</div>
 
