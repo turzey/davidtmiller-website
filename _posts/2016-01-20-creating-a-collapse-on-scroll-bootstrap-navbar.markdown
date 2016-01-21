@@ -75,4 +75,10 @@ header-img: "img/post-bg-01.jpg"
 
 	</div>
 
+	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+		<p>Notice that we're putting all of the custom styles for the navbar in a media query. The purpose of this is to keep the mobile functionality of the default Bootstrap navbar unaffected. We only want the navbar to collapse when scrolling down when the menu items are not collapsed, or in other words, when the screen width exceeds 768px. On mobile devices, the collapsing navbar is not necessary.</p>
+
+	</div>
+
 </div>
