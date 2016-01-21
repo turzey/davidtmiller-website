@@ -43,8 +43,18 @@ header-img: "img/post-bg-01.jpg"
 
 	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-		<p>The first addition you'll see is that we're adding a new ID to the <code>nav</code> element. The new ID is added so we can target the navbar when we add the jQuery to activate the affix plugin. Other than the addition of a new ID, make sure you're using the <code>navbar-fixed-top</code> class when building your navbar so the positioning will be correct. The real magic happens with the CSS and JavaScript.</p>
+		<p>The first addition you'll see is that we're adding a new ID to the <code>nav</code> element. The new ID is added so we can target the navbar when we add the jQuery to activate the affix plugin. Other than the addition of a new ID, make sure you're using the <code>navbar-fixed-top</code> class when building your navbar so the positioning will be correct. The real magic happens when the CSS and JavaScript come into play.</p>
+
+		<h2 class="section-heading">Activating the Affix Plugin using jQuery</h2>
+
+		<p>The affix plugin is what makes this technique work. What it does, in effect, is changes a CSS class on the navbar when the page scrolls from a certain point. In this example, at 100px below the top of the page, the affix plugin will remove the <code>.affix-top</code> class from the navbar and replace it with the <code>.affix</code> class instead. This allows us to write custom CSS styles for each class that will change the look and feel of the menu bar when the page scrolls.</p>
 
 	</div>
 
+	<div class="col-lg-12">
+
+		<p data-height="540" data-theme-id="0" data-slug-hash="yepJoX" data-default-tab="js" data-user="davidtmiller" class='codepen'>See the Pen <a href='http://codepen.io/davidtmiller/pen/yepJoX/'>Easy Bootstrap Collapsing Animated Navigation on Scroll</a> by David Miller (<a href='http://codepen.io/davidtmiller'>@davidtmiller</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+		<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+	</div>
 </div>
