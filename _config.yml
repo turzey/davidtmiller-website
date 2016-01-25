@@ -14,3 +14,7 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Jekyll Redirect From Plugin for Redirects from Start Bootstrap Old Version
+gems:
+  - jekyll-paginate
