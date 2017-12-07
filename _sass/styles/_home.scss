@@ -1,0 +1,29 @@
+main.post-list {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  .post-list-item {
+    margin-bottom: 7rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .post-list-link {
+      padding-bottom: 1rem;
+      display: block;
+      border-bottom: 5px solid transparent;
+      h3 {
+        font-size: 2.5rem;
+        color: $theme-dark;
+      }
+      p {
+        color: $theme-dark;
+      }
+      &:hover {
+        text-decoration: none;
+        border-bottom: 5px solid $theme-primary;
+        h3 {
+          color: $theme-primary;
+        }
+      }
+    }
+  }
+}

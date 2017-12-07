@@ -1,21 +1,12 @@
-# Site settings
-title: David Miller
-header-img: img/home-bg.jpg
-email: hello@davidmiller.io
-description: "The official blog of David Miller, creator of Start Bootstrap and managing partner of Iron Summit Media Strategies"
-baseurl: ""
-url: "http://davidmiller.io/"
-twitter_username: davidmillerskt
-github_username:  davidtmiller
-instagram_username:  davidmillerswbrd
+title:         David Miller
+description:   The official blog of David Miller, creator of Start Bootstrap
+baseurl:       ""
+url:           ""
 
 # Build settings
-markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-# Jekyll Redirect From Plugin for Redirects from Start Bootstrap Old Version
-gems:
+markdown:      kramdown
+paginate:      5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
   - jekyll-paginate

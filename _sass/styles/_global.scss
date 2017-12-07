@@ -1,0 +1,90 @@
+// Global styling for this template
+body {
+  @include body-font;
+  overflow-x: hidden;
+}
+
+p,
+ul {
+  font-size: 1.25rem;
+}
+
+p.lead {
+  font-size: 1.75rem;
+  font-weight: bold !important;
+}
+
+a {
+  color: $theme-primary;
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($theme-primary, 10%);
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: $theme-primary !important;
+}
+
+.bg-primary {
+  background-color: $theme-primary !important;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.page-section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.page-bottom-link {
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: block;
+  color: white;
+  background-color: $theme-primary;
+  &:active,
+  &:focus,
+  &:hover {
+    color: $theme-dark;
+  }
+}
+
+// Highlight color customization
+::-moz-selection {
+  color: white;
+  background: $theme-primary;
+  text-shadow: none;
+}
+
+::selection {
+  color: white;
+  background: $theme-primary;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  -webkit-tap-highlight-color: $theme-primary;
+}

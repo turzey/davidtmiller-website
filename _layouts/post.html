@@ -2,45 +2,39 @@
 layout: default
 ---
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+{% include header.html %}
 
-<!-- Post Content -->
 <article>
-    <div class="container">
-        
-				{{ content }}
 
-                <hr>
+ {{ content }}
 
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-    </div>
 </article>
 
-<hr>
+<div class="post-pagination mb-5">
+  <div class="container-fluid px-5">
+    <div class="row">
+      <div class="col-md-9 col-lg-8">
+        <div class="row">
+          <div class="col-6 mr-auto text-left">
+            {% if page.previous.url %}
+            <a class="post-pagination-link" href="{{ page.previous.url }}">
+              <span class="post-pagination-header">Previous Post</span>
+              {{ page.previous.title }}
+            </a>
+            {% endif %}
+          </div>
+          <div class="col-6 text-right">
+            {% if page.next.url %}
+            <a class="post-pagination-link" href="{{ page.next.url }}">
+              <span class="post-pagination-header">Next Post</span>
+              {{ page.next.title }}
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a class="page-bottom-link px-5 py-3" href="/">Return to Home</a>

@@ -1,0 +1,52 @@
+---
+layout: page
+title: Posts
+---
+
+<main class="post-list bg-white">
+  <div class="container-fluid px-5">
+    <div class="row m-0">
+      <div class="col-lg-8 p-0">
+
+        {% for post in paginator.posts %}
+
+        <article class="post-list-item">
+          <a class="post-list-link" href="{{ post.url }}">
+            <h3>{{ post.title }}</h3>
+            <p class="mb-0">{{ post.excerpt | strip_html | truncatewords:50 }}</p>
+          </a>
+        </article>
+
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</main>
+
+{% if paginator.total_pages > 1 %}
+<div class="post-pagination mb-5">
+  <div class="container-fluid px-5">
+    <div class="row">
+      <div class="col-md-9 col-lg-8">
+        <div class="row">
+          <div class="col-6 mr-auto text-left">
+            {% if paginator.previous_page %}
+            <a class="post-pagination-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+              <span class="post-pagination-header">Newer Posts</span>
+            </a>
+            {% endif %}
+          </div>
+          <div class="col-6 text-right">
+            {% if paginator.next_page %}
+            <a class="post-pagination-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+              <span class="post-pagination-header">Older Posts</span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

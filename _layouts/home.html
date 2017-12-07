@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<!-- Masthead -->
+<header class="masthead bg-dark" data-midnight="white">
+
+  <div class="container-fluid px-5">
+    <!-- Page Heading -->
+    <h1 class="text-white mb-0" id="pageHeading">David Miller</h1>
+    <!-- Page Subheading -->
+    <h2 class="text-white mb-0" id="pageSubheading">
+      Web Developer
+      <span class="text-primary">·</span>
+      Designer
+    </h2>
+    <!-- Social Links -->
+    <ul class="list-inline mt-5 mb-0">
+      <li class="list-inline-item mr-4">
+        <a class="link-social" href="https://twitter.com/davidmillerskt">
+          <span class="icon-social-twitter"></span>
+        </a>
+      </li>
+      <li class="list-inline-item mr-4">
+        <a class="link-social" href="https://github.com/davidtmiller">
+          <span class="icon-social-github"></span>
+        </a>
+      </li>
+      <li class="list-inline-item mr-4">
+        <a class="link-social" href="https://www.instagram.com/davidmillerswbrd/">
+          <span class="icon-social-instagram"></span>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="link-social" href="mailto:hello@davidmiller.io">
+          <span class="icon-envelope"></span>
+        </a>
+      </li>
+    </ul>
+    <!-- End of Social Links -->
+  </div>
+
+</header>
+
+<main class="post-list bg-white">
+  <div class="container-fluid px-5">
+    <div class="row m-0">
+      <div class="col-lg-8 p-0">
+
+        {% for post in site.posts limit: 5 %}
+
+        <article class="post-list-item">
+          <a class="post-list-link" href="{{ post.url }}">
+            <h3>{{ post.title }}</h3>
+            <p class="mb-0">{{ post.excerpt | strip_html | truncatewords:50 }}</p>
+          </a>
+        </article>
+
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</main>
+
+<a class="page-bottom-link px-5 py-3" href="/posts">View All Posts</a>

@@ -1,0 +1,20 @@
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  border-bottom: 31px solid $theme-primary;
+  .link-social {
+    font-size: 2rem;
+    color: white;
+    &:active,
+    &:focus,
+    &:hover {
+      text-decoration: none;
+      color: $theme-primary;
+    }
+  }
+  @media (min-width: 992px) {
+    .link-social {
+      font-size: 3rem;
+    }
+  }
+}
